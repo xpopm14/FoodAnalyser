@@ -30,7 +30,7 @@ export default async function handler(req, res) {
             content: [
               {
                 type: "text",
-                text: "Analyzuj túto fotografiu jedla a poskytni detailné nutričné informácie v JSON formáte v slovenskom jazyku. Použi slovenské názvy polí: nazovJedla, kalorie, velkostPorcie, makronutrienty (bielkoviny, sacharidy, tuky, vlaknina, cukry v gramoch), vitaminy (s percentami dennej hodnoty), mineraly (s percentami dennej hodnoty), zdravotneSkore (z 10), a zdravotneRady (pole 3-4 praktických rád). Buď špecifický s množstvami. Celá odpoveď musí byť v slovenčine."
+                text: "text: "Analyze this food image and provide detailed nutritional information in JSON format. Respond in Slovak language with Slovak field names. Use these exact field names: nazovJedla, kalorie, velkostPorcie, makronutrienty (bielkoviny, sacharidy, tuky, vlaknina, cukry in grams), vitaminy (with daily value percentages), mineraly (with daily value percentages), zdravotneSkore (out of 10), and zdravotneRady (array of 3-4 practical tips in Slovak). Be specific with quantities. If multiple dishes are visible, analyze them as a combined meal and provide total nutritional values. All text content must be in Slovak language."
               },
               {
                 type: "image_url",
