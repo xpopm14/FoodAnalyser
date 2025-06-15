@@ -30,7 +30,7 @@ export default async function handler(req, res) {
             content: [
               {
                 type: "text",
-                text: "Analyze this food image and provide detailed nutritional information in JSON format. Include: foodName, calories, servingSize, macronutrients (protein, carbohydrates, fat, fiber, sugar in grams), vitamins (with daily value percentages), minerals (with daily value percentages), healthScore (out of 10), and healthTips (array of 3-4 practical tips). Be specific with quantities."
+                text: "Analyzuj túto fotografiu jedla a poskytni detailné nutričné informácie v JSON formáte v slovenskom jazyku. Použi slovenské názvy polí: nazovJedla, kalorie, velkostPorcie, makronutrienty (bielkoviny, sacharidy, tuky, vlaknina, cukry v gramoch), vitaminy (s percentami dennej hodnoty), mineraly (s percentami dennej hodnoty), zdravotneSkore (z 10), a zdravotneRady (pole 3-4 praktických rád). Buď špecifický s množstvami. Celá odpoveď musí byť v slovenčine."
               },
               {
                 type: "image_url",
